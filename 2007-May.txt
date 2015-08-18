@@ -1,0 +1,46 @@
+From smoors at mail.berlios.de  Wed May 30 10:38:02 2007
+From: smoors at mail.berlios.de (smoors at mail.berlios.de)
+Date: Wed, 30 May 2007 10:38:02 +0200
+Subject: [Xmpppy-guide-svn] r35 - trunk/src
+Message-ID: <200705300838.l4U8c23P000659@sheep.berlios.de>
+
+Author: smoors
+Date: 2007-05-30 10:38:01 +0200 (Wed, 30 May 2007)
+New Revision: 35
+
+Modified:
+   trunk/src/intro.tex
+   trunk/src/main.tex
+Log:
+- fixed typo
+
+
+Modified: trunk/src/intro.tex
+===================================================================
+--- trunk/src/intro.tex	2006-10-09 20:48:36 UTC (rev 34)
++++ trunk/src/intro.tex	2007-05-30 08:38:01 UTC (rev 35)
+@@ -26,7 +26,7 @@
+ 
+ \subsection{Messages and message types}
+ 
+-You may have noticed that message you received from that script was shown to you on a different way than normal chat messages. If you use a pure jabber client like psi, which is very near to the jabber standart, the message might be shown like an email or something. That is because the xmpp protocol defines multiple message types. Less xmpp-compliant messengers like kopete make no difference between them.
++You may have noticed that message you received from that script was shown to you on a different way than normal chat messages. If you use a pure jabber client like psi, which is very near to the jabber standard, the message might be shown like an email or something. That is because the xmpp protocol defines multiple message types. Less xmpp-compliant messengers like kopete make no difference between them.
+ \newline
+ \newline
+ RFC 3921 2.1.1 defines 5 message types:	chat,error,groupchat,headline and normal. For detailed informations see \textit{http://www.apps.ietf.org/rfc/rfc3921.html}.
+
+Modified: trunk/src/main.tex
+===================================================================
+--- trunk/src/main.tex	2006-10-09 20:48:36 UTC (rev 34)
++++ trunk/src/main.tex	2007-05-30 08:38:01 UTC (rev 35)
+@@ -1,6 +1,7 @@
+ \documentclass[a4paper,10pt]{report}
+ 
+ 
++
+ \title{xmpppy: a practical guide}
+ 
+ \author{Sebastian Moors \\[1cm] smoors at users.berlios.de}
+
+
+
